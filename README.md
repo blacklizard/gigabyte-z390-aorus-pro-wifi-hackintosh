@@ -24,3 +24,6 @@ Type|Item
 
 ##### Not Working
 - Built-in WiFi and Bluetooth. This will never work, dont even waste time here. If you absolutely need Bluetooth and WiFi, get the BCM94360CS2 card.
+
+### Caveat
+After first reboot, the installer might be stuck at `About 15 minutes remaining...`. Don't be alrmed, just give it 5 ~ 10 min, it will eventually work again
