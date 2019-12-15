@@ -1,4 +1,4 @@
-# Hackintosh Catalina Installation Guide for Gigabyte Z390 Aorus Pro WiFi
+# Hackintosh Catalina(>=10.15.2) Installation Guide for Gigabyte Z390 Aorus Pro WiFi
 
 ### Hardware
 
@@ -17,6 +17,10 @@ Type|Item
 **Monitor 1** | DELL U2718Q
 **Monitor 2** | DELL U2312HM
 
+### BIOS Setting
+
+
+
 ### What's Working/What's Not
 
 ##### Working
@@ -26,25 +30,27 @@ Type|Item
 - IGPU in headless mode
 - App Store
 - Wake/Sleep
+- Restart
+- Shutdown
 - USB (Correct SS/HS speed)
 - All DP and HDMI port
 - Dual monitor from boot
+- Apple Music (iTunes)
 
 ##### Not Tested
 - DP Audio
-- Apple Music (iTunes)
-- Power Nap
 - Handoff
 - Airdrop
-- AirPlay
 - Continuity
-- Apple Music (iTunes)
-- FileVault
 - iMessage
 - Facetime
+- FileVault
+- Power Nap
+- AirPlay
 
 ##### Not Working
 - Built-in WiFi and Bluetooth. This will never work, dont even waste time here. If you absolutely need Bluetooth and WiFi, get the BCM94360CS2 card.
+- Netflix in Safari
 
 ### Caveat
 - If you're stuck at `About 2 minutes remaining` in installer, add `EmuVariableUefi.efi` to your USB efi and redo the installation
