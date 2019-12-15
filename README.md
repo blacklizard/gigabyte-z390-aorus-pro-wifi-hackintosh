@@ -19,7 +19,17 @@ Type|Item
 
 ### BIOS Setting
 
+BIOS version: `F11`
 
+- Load Optimized Defaults
+- Settings -> Internal Graphics -> Enabled
+- Settings -> DVMT Pre-Allocated -> 32M
+- Settings -> Wi-Fi -> Disabled
+- Settings -> Above 4G Decoding -> Enabled
+- Settings -> Wake on LAN Enable -> Disabled
+- Settings -> USB Configuration -> Legacy USB Support -> Disabled
+- Settings -> USB Configuration -> XHCI Hand-off -> Enabled
+- Boot -> CSM Support -> Disabled
 
 ### What's Working/What's Not
 
