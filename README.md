@@ -31,6 +31,15 @@ BIOS version: `F11`
 - Settings -> USB Configuration -> XHCI Hand-off -> Enabled
 - Boot -> CSM Support -> Disabled
 
+### Step By Step Installation Guide
+
+WIP
+
+### USB Configuration
+
+[USBMAP.md](USBMAP.md)
+
+
 ### What's Working/What's Not
 
 ##### Working
