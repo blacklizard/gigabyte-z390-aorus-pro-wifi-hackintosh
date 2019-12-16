@@ -55,14 +55,14 @@ WIP
 - All DP and HDMI port
 - Dual monitor from boot
 - Apple Music (iTunes)
+- iMessage
+- Facetime
 
 ##### Not Tested
 - DP Audio
 - Handoff
 - Airdrop
 - Continuity
-- iMessage
-- Facetime
 - FileVault
 - Power Nap
 - AirPlay
