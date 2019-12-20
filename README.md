@@ -11,31 +11,17 @@ Type|Item
 **Storage (macOS)** | [ADATA XPG SX8200 Pro 512GB](https://shopee.com.my/product/84969687/1883571808)
 **Storage (Windows)** | [KINGSTON A400 256GB](https://shopee.com.my/product/29242218/1103855234)
 **Video Card** | [SAPPHIRE PULSE RX 5700 XT OC](about:blank)
-**WiFi + Bluetooth** | [BCM943602CS](about:blank) + [PCI-E Adaptor](https://shopee.com.my/product/162227071/3405707076)
+**WiFi + Bluetooth** | [BCM943602CS](https://www.aliexpress.com/item/32847834498.html) + [PCI-E Adaptor](https://shopee.com.my/product/162227071/3405707076)
 **Case** | [ECLIPSE P400A](https://shopee.com.my/product/1422162/6808915755)
 **Power Supply** | [Cooler Master V1000 80+ Gold Modular](https://shopee.com.my/product/47928376/3300926225)
-**Monitor 1** | DELL U2718Q
-**Monitor 2** | DELL U2312HM
+**Monitor 1** | [DELL U2718Q](https://www.dell.com/en-my/shop/dell-ultrasharp-27-4k-monitor-u2718q/apd/210-amuf/monitors-monitor-accessories)
+**Monitor 2** | [DELL U2312HM](https://www.dell.com/ng/business/p/dell-u2312h/pd)
 
-### BIOS Setting
 
-BIOS version: `F11`
-
-- Load Optimized Defaults
-- Settings -> Internal Graphics -> Enabled
-- Settings -> DVMT Pre-Allocated -> 32M
-- Settings -> Wi-Fi -> Disabled
-- Settings -> Above 4G Decoding -> Enabled
-- Settings -> Wake on LAN Enable -> Disabled
-- Settings -> USB Configuration -> Legacy USB Support -> Disabled
-- Settings -> USB Configuration -> XHCI Hand-off -> Enabled
-- Settings -> Software Guard Extensions(SGX) -> Disabled
-- Settings -> Trusted Computing -> Security Device Support -> Disabled
-- Boot -> CSM Support -> Disabled
 
 ### Step By Step Installation Guide
 
-WIP
+[STEP_BY_STEP.md](STEP_BY_STEP.md)
 
 ### USB Configuration
 
@@ -59,15 +45,15 @@ WIP
 - Apple Music (iTunes)
 - iMessage
 - Facetime
-
-##### Not Tested
-- DP Audio
 - Handoff
 - Airdrop
 - Continuity
+- AirPlay
+
+##### Not Tested
+- DP Audio
 - FileVault
 - Power Nap
-- AirPlay
 
 ##### Not Working
 - Built-in WiFi and Bluetooth. This will never work, dont even waste time here. If you absolutely need Bluetooth and WiFi, get the BCM94360CS2 card.
