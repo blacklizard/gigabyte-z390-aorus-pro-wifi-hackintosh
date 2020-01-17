@@ -1,5 +1,7 @@
 # Hackintosh Catalina(>=10.15.2) Installation Guide for Gigabyte Z390 Aorus Pro WiFi
 
+![System Info](images/system.png)
+
 ### Hardware
 
 Type|Item
@@ -27,13 +29,13 @@ Type|Item
 
 [USBMAP.md](USBMAP.md)
 
-
 ### What's Working/What's Not
 
 ##### Working
 - Ethernet
 - Onboard Audio
 - HDMI Audio
+- DP Audio
 - IGPU in headless mode
 - App Store
 - Wake/Sleep
@@ -51,7 +53,6 @@ Type|Item
 - AirPlay
 
 ##### Not Tested
-- DP Audio
 - FileVault
 - Power Nap
 
@@ -60,5 +61,9 @@ Type|Item
 - Netflix in Safari
 
 ### Caveat
-- If you're stuck at `About 2 minutes remaining` in installer, add `EmuVariableUefi.efi` to your USB efi and redo the installation
 - After first reboot, the installer might be stuck at `About 13/15 minutes remaining...`. Don't be alrmed, just give it 5 ~ 10 min, it will eventually work again. Your mouse and keyboard most probably wont be working in this installation stage
+- If you encounter the error below, just clear your BIOS via motherboard
+	```
+	Error allocating 0x1197b pages at xxx alloc type x
+	Couldn't allocate runtime area
+	```
