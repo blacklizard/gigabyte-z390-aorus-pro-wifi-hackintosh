@@ -101,5 +101,7 @@ Use `config.plist`
 
 ### For sleep to work properly
 
+```
 sudo pmset hibernatemode 0
 sudo pmset proximity 0
+```
