@@ -10,6 +10,20 @@
 		<dict>
 			<key>Fixes</key>
 			<dict>
+				<key>FixHPET</key>
+				<false/>
+				<key>FixIPIC</key>
+				<false/>
+				<key>FixMutex</key>
+				<false/>
+				<key>FixRTC</key>
+				<false/>
+				<key>FixRegions</key>
+				<false/>
+				<key>FixShutdown</key>
+				<false/>
+				<key>FixTMR</key>
+				<false/>
 			</dict>
 			<key>Patches</key>
 			<array>
@@ -25,13 +39,13 @@
 				</dict>
 				<dict>
 					<key>Comment</key>
-					<string>change HECI to IMEI</string>
+					<string>change GFX0 to IGPU</string>
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
-					<data>SEVDSQ==</data>
+					<data>R0ZYMA==</data>
 					<key>Replace</key>
-					<data>SU1FSQ==</data>
+					<data>SUdQVQ==</data>
 				</dict>
 			</array>
 		</dict>
@@ -48,6 +62,8 @@
 		</array>
 		<key>FixHeaders</key>
 		<true/>
+		<key>HaltEnabler</key>
+		<false/>
 		<key>SSDT</key>
 		<dict>
 			<key>Generate</key>
@@ -65,14 +81,12 @@
 	<dict>
 		<key>Arguments</key>
 		<string>alcid=29 dart=0 slide=0 darkwake=8 agdpmod=pikera</string>
-		<key>CustomLogo</key>
-		<false/>
 		<key>DefaultVolume</key>
-		<string>hackOS</string>
+		<string>LastBootedVolume</string>
 		<key>Timeout</key>
-		<integer>3</integer>
+		<integer>8</integer>
 		<key>XMPDetection</key>
-		<string>Yes</string>
+		<false/>
 	</dict>
 	<key>Devices</key>
 	<dict>
@@ -103,6 +117,8 @@
 		</dict>
 		<key>USB</key>
 		<dict>
+			<key>AddClockID</key>
+			<false/>
 			<key>FixOwnership</key>
 			<true/>
 			<key>HighCurrent</key>
@@ -117,11 +133,6 @@
 		<false/>
 		<key>EmbeddedThemeType</key>
 		<string>Dark</string>
-		<key>Hide</key>
-		<array>
-			<string>Preboot</string>
-			<string>Recovery</string>
-		</array>
 		<key>Scan</key>
 		<dict>
 			<key>Entries</key>
@@ -140,6 +151,12 @@
 	<dict>
 		<key>Inject</key>
 		<dict>
+			<key>ATI</key>
+			<false/>
+			<key>Intel</key>
+			<false/>
+			<key>NVidia</key>
+			<false/>
 		</dict>
 	</dict>
 	<key>KernelAndKextPatches</key>
@@ -147,7 +164,7 @@
 		<key>AppleIntelCPUPM</key>
 		<false/>
 		<key>KernelPm</key>
-		<false/>
+		<true/>
 		<key>KextsToPatch</key>
 		<array>
 			<dict>
@@ -201,7 +218,7 @@
 		<key>CsrActiveConfig</key>
 		<string>0x67</string>
 		<key>ROM</key>
-		<data>AAAAAAAA</data>
+		<string>{GENERATE}</string>
 	</dict>
 	<key>SMBIOS</key>
 	<dict>
@@ -216,7 +233,7 @@
 		<key>BoardManufacturer</key>
 		<string>Apple Inc.</string>
 		<key>BoardSerialNumber</key>
-		<string>{{GENERATE}}</string>
+		<string>{GENERATE}</string>
 		<key>BoardType</key>
 		<integer>10</integer>
 		<key>BoardVersion</key>
@@ -253,18 +270,20 @@
 		<key>ProductName</key>
 		<string>iMac19,1</string>
 		<key>SerialNumber</key>
-		<string>{{GENERATE}}</string>
+		<string>{GENERATE}</string>
 		<key>SmUUID</key>
-		<string>{{GENERATE}}</string>
+		<string>{GENERATE}</string>
 		<key>Version</key>
 		<string>1.0</string>
 	</dict>
 	<key>SystemParameters</key>
 	<dict>
 		<key>CustomUUID</key>
-		<string>{{GENERATE}}</string>
+		<string>{GENERATE}</string>
 		<key>InjectKexts</key>
 		<string>Yes</string>
+		<key>InjectSystemID</key>
+		<true/>
 	</dict>
 </dict>
 </plist>

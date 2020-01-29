@@ -67,3 +67,8 @@ Type|Item
 	Error allocating 0x1197b pages at xxx alloc type x
 	Couldn't allocate runtime area
 	```
+
+
+### Changelog
+
+- 29-01-2020: Upadated to 10.15.3 without any issue, took aprox 30 min for the update. Everything still works
