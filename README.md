@@ -1,3 +1,5 @@
+# Deprecated
+Use this instead: https://github.com/blacklizard/gigabyte-z390-aorus-pro-wifi-hackintosh-opencore
 # Hackintosh Catalina(>=10.15.2) Installation Guide for Gigabyte Z390 Aorus Pro WiFi
 
 ![System Info](images/system.png)
